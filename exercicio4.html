@@ -5,7 +5,23 @@
     </head>
     <body>
         <script>
+            function verificarExperiencia(anosEstudos){
+                if (anosEstudos >= 7) {
+                    console.log("Jedi Master");
+                } else if (anosEstudos > 3) {
+                    console.log("Avançado");
+                } else if (anosEstudos > 1 ){
+                    console.log("Intermediário");
+                } else {
+                    console.log("Iniciante");
+                }
+            }
+
+            var anosDeEstudo = 7
+            verificarExperiencia(anosDeEstudo);
             
         </script>
     </body>
 </html>
+
+   
