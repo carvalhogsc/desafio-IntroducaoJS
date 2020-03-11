@@ -5,7 +5,19 @@
     </head>
     <body>
         <script>
-
+            function verParesEntre2Numeros(numero1, numero2)
+            {
+                var numerosPares = "Numeros pares: ";
+                for(var x = numero1; x <= numero2; x++)
+                {
+                    if (x % 2 == 0){
+                        numerosPares += x + " ";
+                    }
+                }
+                return numerosPares
+            }
+            
+            console.log(verParesEntre2Numeros(1, 10));
             
         </script>
     </body>
